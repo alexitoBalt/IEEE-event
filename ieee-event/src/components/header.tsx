@@ -32,9 +32,9 @@ export default function NavBar() {
 
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
               <div className="flex flex-shrink-0 items-center">
-                {/*La imagen acaaaa*/}
+                {/*FALTA LOGOOOOASBBH*/}
                 <img
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    src="https://images.squarespace-cdn.com/content/v1/5f7d6e405c4cd31c5b9b8203/1606269365612-FMJEVPXQ25TQJRDL05KL/UHM+IEEE+Logo.png"
                     className="h-8 w-auto"
                 />
               </div>

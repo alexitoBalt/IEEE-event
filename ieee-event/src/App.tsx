@@ -2,6 +2,8 @@
 import './App.css'
 import NavBar from "./components/header.tsx";
 import PanelWithImg from "./components/panelWithImg.tsx";
+import  Cardfirst from "./components/cardfirst.tsx";
+import CardFirst from "./components/cardfirst.tsx";
 
 
 function App() {
@@ -19,8 +21,7 @@ function App() {
                   buttonHref="https://www.gaaaaaaa.com"
               />
           </div>
-
-
+              <CardFirst/>
           <div>
               <PanelWithImg
                   imageUrl="https://www.profesionalonline.com/blog/wp-content/uploads/2022/01/los-7-tipos-de-programador-explicados-header.jpg"
