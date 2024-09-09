@@ -1,34 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import NavBar from "./components/header.tsx";
+import PanelWithImg from "./components/panelWithImg.tsx";
+import  Cardfirst from "./components/cardfirst.tsx";
+import CardFirst from "./components/cardfirst.tsx";
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      <>
+          <NavBar/>
+          <div>
+              <PanelWithImg
+                  imageUrl="https://www.vipnet360.com/wp-content/uploads/2021/06/La-importancia-de-contar-con-un-desarrollador-o-programador-para-Wordpress_Vipnet360.png"
+                  title="TALLER: INTRODUCCION A R"
+                  description="De Funciones a Paquetes, de Paquetes a Papers"
+                  buttonText="Registrarme"
+                  buttonHref="https://www.gaaaaaaa.com"
+              />
+          </div>
+              <CardFirst/>
+          <div>
+              <PanelWithImg
+                  imageUrl="https://www.profesionalonline.com/blog/wp-content/uploads/2022/01/los-7-tipos-de-programador-explicados-header.jpg"
+                  title="EVENTO VIRTUAL"
+                  description="________________________________________________"
+                  buttonText="Registrarme"
+                  buttonHref="https://www.gaaaaaaa.com"
+              />
+          </div>
+
+      </>
   )
 }
 
